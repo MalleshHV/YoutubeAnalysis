@@ -22,9 +22,18 @@ To run this analysis, you will need:
 - Libraries: `pandas`, `matplotlib`, `seaborn`, `google-api-python-client`, `nltk`
 - A valid YouTube Data API key
 
-## Installation
-You can install the required libraries using pip:
-    ```bash pip install pandas matplotlib seaborn google-api-python-client nltk
+
+## Installation Instructions
+To set up the project locally, follow these steps:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/MalleshHV/YoutubeAnalysis.git
+   cd YoutubeAnalysis
+
+2. **Install Required Libraries**
+   ```bash
+   pip install pandas matplotlib seaborn google-api-python-client nltk
 
 
 ## Usage
@@ -42,6 +51,7 @@ You can install the required libraries using pip:
 5. **Text Analysis**: Identify common words in video titles and count fully capitalized words.
 6. **Channel and Category Analysis**: Count trending videos by channel and category.
 7. **Publishing Time Analysis**: Analyze the publish dates and times of trending videos.
+
 
 ## Results
 
